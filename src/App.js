@@ -14,7 +14,7 @@ function App() {
     <div>
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route path="/" component={HomePage} />
         <Route path="/pp" component={ProgrammingPage} />
         <Route path="/threed" component={ThreeDPage} />
         <Route path="/about" component={AboutPage} />
