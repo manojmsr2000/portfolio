@@ -1,0 +1,25 @@
+#pp{
+    text-align: center;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  
+    h1{
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 4rem;
+      font-weight:bolder;
+      color: #f9813a;
+    }
+  
+    .btn{
+      margin: 6px;
+      background-color: #f9813a;
+      color: #FFD68A;
+      border: none;
+  
+      &:hover{
+        color: #fcf1f1;
+        background-color: #FFA500;
+      }
+    }
+    
+  }

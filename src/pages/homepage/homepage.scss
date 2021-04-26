@@ -1,0 +1,55 @@
+.homepage{
+  font-family: 'Merriweather', serif;
+  background-image: linear-gradient(0deg ,#00000088 100%, #ffffff44 100%),url("../../assets/images/aot.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem;
+    font-weight:bolder;
+    color: #f9813a;
+  }
+
+  .btn{
+    margin: 6px;
+    background-color: #f9813a;
+    color: #FFD68A;
+    border: none;
+
+    &:hover{
+      color: #fcf1f1;
+      background-color: #FFA500;
+    }
+  }
+  
+}
+
+@media only screen and (max-device-width: 768px) {
+  
+  .container{
+    padding: 40% 0;
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 1.5rem
+    }
+    h3,p,h5{
+      font-size: 1rem;
+    }
+  }
+  #threed{
+    padding-top: 30%;
+    justify-content: center;
+  }
+  #pp{
+    padding-top: 30%;
+    justify-content: center;
+  }
+}
