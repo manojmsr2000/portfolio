@@ -14,7 +14,7 @@ const ProgrammingWork = (props) => (
           return (
             <Col key={index} lg={`${props.stopAt === 3 ? "4" : "6"}`} md="6">
               <Card className="dark-bg">
-                <Card.Img variant="top" src={detail.src} />
+                <Card.Img variant="top" src={detail.src} alt="card-image" />
                 <Card.Body>
                   <Card.Title>{detail.title}</Card.Title>
                   <Card.Text>{detail.text}</Card.Text>

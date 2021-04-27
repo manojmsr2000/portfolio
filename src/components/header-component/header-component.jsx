@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Sling as Hamburger } from "hamburger-react";
 
 import "./header-component.scss";
 import HeaderLinks, { SocialLinks } from "../../assets/Data/Navbar-data";
@@ -9,15 +10,35 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Nav, Navbar } from "react-bootstrap";
 
 function Header() {
+  const [expanded, setExpanded] = useState(false);
+  const [isOpen, setOpen] = useState(false);
+
   return (
-    <Navbar className="dark-bg" variant="dark" expand="lg" fixed="top">
+    <Navbar
+      className="dark-bg"
+      variant="dark"
+      expand="lg"
+      fixed="top"
+      expanded={expanded}
+    >
       <Navbar.Brand href="/">MS</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        onClick={() => setExpanded(expanded ? false : "expanded")}
+      >
+        <Hamburger toggled={isOpen} toggle={setOpen} size={40} />
+      </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           {HeaderLinks.map((link) => {
             return (
               <NavLink
+                onClick={() =>
+                  setTimeout(() => {
+                    setExpanded(false);
+                    setOpen(false);
+                  }, 150)
+                }
                 key={link.id}
                 className="nav-link"
                 activeClassName="selected"
@@ -37,6 +58,10 @@ function Header() {
             <Nav.Link
               key={link.id}
               onClick={() => {
+                setTimeout(() => {
+                  setExpanded(false);
+                  setOpen(false);
+                }, 150);
                 window.open(link.link);
                 return false;
               }}

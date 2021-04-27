@@ -24,7 +24,7 @@ const Footer = () => {
               return false;
             }}
           >
-            <FontAwesomeIcon icon={link.icon} size="lg" />
+            <FontAwesomeIcon icon={link.icon} />
           </Nav.Link>
         ))}
       </Nav>

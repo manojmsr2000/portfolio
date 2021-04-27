@@ -13,24 +13,26 @@ const ThreeDWork = (props) => (
         if (index !== props.stopAt) {
           return (
             <Col key={index} lg={`${props.stopAt === 3 ? "4" : "6"}`} md="6">
-              <Card className="dark-bg">
-                <Card.Img variant="top" src={detail.src} />
-                <Card.Body>
-                  <Card.Title>{detail.title}</Card.Title>
-                  <Card.Text>{detail.text}</Card.Text>
-                  {detail.text ? (
-                    <Button
-                      variant="default"
-                      className="rounded-pill"
-                      size="lg"
-                    >
-                      Go somewhere
-                    </Button>
-                  ) : (
-                    ""
-                  )}
-                </Card.Body>
-              </Card>
+              <NavLink to="/pp">
+                <Card className="dark-bg">
+                  <Card.Img variant="top" src={detail.src} alt="card-image" />
+                  <Card.Body>
+                    <Card.Title>{detail.title}</Card.Title>
+                    <Card.Text>{detail.text}</Card.Text>
+                    {detail.text ? (
+                      <Button
+                        variant="default"
+                        className="rounded-pill"
+                        size="lg"
+                      >
+                        Go somewhere
+                      </Button>
+                    ) : (
+                      ""
+                    )}
+                  </Card.Body>
+                </Card>
+              </NavLink>
             </Col>
           );
         } else {

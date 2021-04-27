@@ -21,7 +21,7 @@ const ThreeDDetails = [
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    src: "images/ph.png",
+    src: "https://i.ibb.co/wpHgmYT/ph.png",
     title: "Upcoming Projects",
     text: false,
   },
@@ -50,7 +50,7 @@ const ProgrammingDetails = [
       "Some quick example text to build on the card title and make up the bulk of the card's content.",
   },
   {
-    src: "../../assets/images/ph.png",
+    src: "https://i.ibb.co/wpHgmYT/ph.png",
     title: "Upcoming Projects",
     text: false,
   },
