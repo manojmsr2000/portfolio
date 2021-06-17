@@ -1,3 +1,4 @@
+
 .homepage{
   font-family: 'Merriweather', serif;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../../assets/images/aot.jpg");
@@ -29,15 +30,11 @@
   }
 
   .card{
-    opacity: 80%;
+    opacity: 90%;
     &:hover{
-
       opacity: 100%;
-      
     }
   }
-  
-  
 }
 
 @media only screen and (max-device-width: 768px) {

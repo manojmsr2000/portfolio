@@ -1,0 +1,62 @@
+
+body,
+html {
+  text-align: center;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #212529;
+}
+
+h2,
+h3,
+p {
+  color: #fcf1f1;
+  white-space:pre-wrap;
+}
+
+h5 {
+  color: #fff;
+}
+
+.container {
+  padding: 13% 2%;
+}
+
+.card {
+  margin: 3%;
+  width: 100%;
+}
+
+.card-title {
+  color: #fcf1f1;
+}
+
+.dark-bg {
+  background-color: #212529 !important;
+}
+
+.work-title {
+  margin-bottom: 30px;
+}
+#pp,
+#threed,
+#footer,
+#about {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  padding: 5% 6%;
+}
+
+#footer a {
+  color: white;
+}
+
+  .grow-rotate {
+    display: inline-block;
+    transition-duration: .3s;
+    transition-property: transform;
+  
+    &:hover {
+      transform: scale(1.05) rotate(-1.5deg);
+    }
+  }

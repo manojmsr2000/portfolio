@@ -1,57 +1,48 @@
+import reg1 from "../images/yohello/reg_page1.png";
+import reg2 from "../images/alley-bewitched/register_page.png";
+import mlpage from "../images/ml/ml_page.png";
 const ThreeDDetails = [
   {
-    src:
-      "https://cdna.artstation.com/p/assets/images/images/028/046/192/large/manoj-singh-0001-1.jpg?1593345839",
+    src: "https://cdna.artstation.com/p/assets/images/images/028/046/192/large/manoj-singh-0001-1.jpg?1593345839",
     title: "The Lighthouse",
-    text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "An attempt at recreating a painting in 3D.",
   },
   {
-    src:
-      "https://cdnb.artstation.com/p/assets/images/images/027/928/677/large/manoj-singh-5yw4v43ei1651.jpg?1592984978",
+    src: "https://cdnb.artstation.com/p/assets/images/images/027/928/677/large/manoj-singh-5yw4v43ei1651.jpg?1592984978",
     title: "The Bus Stop",
-    text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "The bus stop from the brilliant german TV series 'Dark'.",
   },
   {
-    src:
-      "https://cdna.artstation.com/p/assets/images/images/018/985/718/large/manoj-singh-1.jpg?1561514904",
+    src: "https://cdna.artstation.com/p/assets/images/images/018/985/718/large/manoj-singh-1.jpg?1561514904",
     title: "My Hostel Room",
-    text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "A fully CG stylized render of my hostel room.",
   },
   {
     src: "https://i.ibb.co/wpHgmYT/ph.png",
-    title: "Upcoming Projects",
+    title: "You've reached the end.",
     text: false,
   },
 ];
 
 const ProgrammingDetails = [
   {
-    src:
-      "https://cdna.artstation.com/p/assets/images/images/028/046/192/large/manoj-singh-0001-1.jpg?1593345839",
-    title: "The Lighthouse",
-    text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    src: reg1,
+    title: "YoHello!",
+    text: "YoHello! is a social networking website built with php and javascript.",
   },
   {
-    src:
-      "https://cdnb.artstation.com/p/assets/images/images/027/928/677/large/manoj-singh-5yw4v43ei1651.jpg?1592984978",
-    title: "The Bus Stop",
-    text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    src: reg2,
+    title: "Alley Bewitched",
+    text: "Alley Bewitched is a fully functional eCommerce website built with MERN stack.",
   },
   {
-    src:
-      "https://cdna.artstation.com/p/assets/images/images/018/985/718/large/manoj-singh-1.jpg?1561514904",
-    title: "My Hostel Room",
-    text:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    src: mlpage,
+    title: "APUML",
+    text: "APUML is a machine learning project on accident analysis.",
   },
   {
     src: "https://i.ibb.co/wpHgmYT/ph.png",
-    title: "Upcoming Projects",
+    title: "You've reached the end.",
     text: false,
   },
 ];

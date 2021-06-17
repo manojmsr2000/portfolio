@@ -9,6 +9,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/scrolling-top";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 ReactDOM.render(
   <HashRouter>
     <ScrollToTop />

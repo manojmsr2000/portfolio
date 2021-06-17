@@ -21,7 +21,9 @@ function Header() {
       fixed="top"
       expanded={expanded}
     >
-      <Navbar.Brand href="/">MS</Navbar.Brand>
+      <NavLink to="/">
+        <Navbar.Brand>MS</Navbar.Brand>
+      </NavLink>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
         onClick={() => setExpanded(expanded ? false : "expanded")}
