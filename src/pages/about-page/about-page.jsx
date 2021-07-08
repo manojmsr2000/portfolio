@@ -8,7 +8,7 @@ import "./about-page.scss";
 
 const AboutPage = () => (
   <div id="about" className="dark-bg">
-    <h1>About Page</h1>
+    <h1 className="work-title">About Page</h1>
     <Row>
       <Col lg={4} className="pb-5">
         <Image src={prof} alt="profile-pic" width="50%" rounded />

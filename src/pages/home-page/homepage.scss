@@ -1,7 +1,7 @@
 
 .homepage{
   font-family: 'Merriweather', serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../../assets/images/aot.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../assets/images/firewatch-sd.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,9 +30,10 @@
   }
 
   .card{
-    opacity: 90%;
+    opacity: 0.9;
+
     &:hover{
-      opacity: 100%;
+      opacity: 1;
     }
   }
 }
@@ -48,9 +49,14 @@
       font-size: 1.5rem
     }
     h3,p,h5{
-      font-size: 1rem;
+      font-size: 1.3rem;
     }
   }
+
+  .work-title{
+      font-size: 3rem!important;
+    }
+
   #threed{
     padding-top: 15%;
     justify-content: center;

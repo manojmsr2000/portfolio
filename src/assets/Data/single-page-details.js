@@ -41,7 +41,7 @@ export const projectDetails = {
     description:
       "YoHello! is a social media website built with php and javascript.",
     brief:
-      "YoHello! is a project I built for learning experience. You can post pictures, your thoughts, share youtube links, make friends, message friends etc. It has all the necessary functionalities of a social network. The hardest part was the design itself. I learned how powerful PHP is as i continued working with it.",
+      "YoHello! is a social networking website where you can post pictures, your thoughts, share youtube links, make friends, message friends etc. The hardest part of the project was the design itself. I learned how powerful PHP is as I continued working with it.",
     techs: ["HTML5", "CSS", "Bootstrap", "Javascript", "PHP", "MySQL"],
     resources: {
       hosted: "http://yohello.atwebpages.com",

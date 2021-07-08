@@ -19,8 +19,8 @@ const Skills = ({ type }) => {
     return (
       <>
         {skills.map((skill, index) => (
-          <FadeRight>
-            <p className="skill-name" key={index}>
+          <FadeRight key={index}>
+            <p className="skill-name">
               {skill}
               <span className="percent">{skillpercent[index]}%</span>
             </p>
@@ -33,8 +33,8 @@ const Skills = ({ type }) => {
     return (
       <>
         {softskills.map((skill, index) => (
-          <FadeRight>
-            <p className="skill-name" key={index}>
+          <FadeRight key={index}>
+            <p className="skill-name" >
               {skill}
               <span className="percent">{softskillpercent[index]}%</span>
             </p>

@@ -31,7 +31,7 @@ const singlePages = ({ match }) => {
           <Col lg={12}>
             <Carousel
               pause="hover"
-              className="d-flex w-75"
+              className="d-flex"
               indicators={false}
               controls={images.length > 1}
             >
@@ -43,8 +43,6 @@ const singlePages = ({ match }) => {
               {resources.youtubelink && (
                 <Carousel.Item>
                   <iframe
-                    width="100%"
-                    height={500}
                     src={resources.youtubelink}
                     title="YouTube video player"
                     frameBorder="0"
@@ -140,7 +138,9 @@ const singlePages = ({ match }) => {
   } else {
     return (
       <div id="singlepage" className="dark-bg mt-5 text-light text-center">
-        <h1>404 Not Found. Page doesn't exist {":("}</h1>
+        <h1 className="text-center">
+          404 Not Found. Page doesn't exist {":("}
+        </h1>
       </div>
     );
   }
