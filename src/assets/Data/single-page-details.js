@@ -19,7 +19,7 @@ export const projectDetails = {
     description:
       "Alley Bewitched is an eCommerce website built with MERN stack.",
     brief:
-      "Alley Bewitched is an eCommerce website built with MERN stack. It has admin functionalities like product details, order details, adding/deleting/editing products, delivery confirmation and a lot more.",
+      "Alley Bewitched is an eCommerce website built with MERN stack. It has admin functionalities like product details, order details, adding/deleting/editing products, delivery confirmation and some other necessary functions.",
     techs: [
       "HTML5",
       "CSS (with SASS)",
@@ -41,7 +41,7 @@ export const projectDetails = {
     description:
       "YoHello! is a social media website built with php and javascript.",
     brief:
-      "YoHello! is a social networking website where you can post pictures, your thoughts, share youtube links, make friends, message friends etc. The hardest part of the project was the design itself. I learned how powerful PHP is as I continued working with it.",
+      "YoHello! is a social networking website where you can post pictures, your thoughts, share youtube links, make friends, message friends etc.",
     techs: ["HTML5", "CSS", "Bootstrap", "Javascript", "PHP", "MySQL"],
     resources: {
       hosted: "http://yohello.atwebpages.com",
@@ -54,7 +54,7 @@ export const projectDetails = {
     description:
       "APUML is a web-app that uses machine learning to predict chances of having an accident.",
     brief:
-      "APUML is a project I worked on as a mini-project for my college credit. It classifies the severity as slight, moderate or severe based on the data recieved from the user and the backend.",
+      "APUML is a project I worked on as a mini-project for my college credit. It classifies the severity of an accident as slight, moderate or severe based on the data recieved from the user and the backend.",
     techs: ["HTML5", "CSS", "Javascript", "Bootstrap", "Python", "Flask"],
     resources: {
       github: "https://github.com/manojmsr2000/ML-Accident-Analysis-Project",
