@@ -39,7 +39,7 @@ export const projectDetails = {
   "YoHello!": {
     images: [reg1, yohello1, yohello2, yohello3, yohello4],
     description:
-      "YoHello! is a social media website built with php and javascript.",
+      "YoHello! is a social media website built with php,javascript and MySQL.",
     brief:
       "YoHello! is a social networking website where you can post pictures, your thoughts, share youtube links, make friends, message friends etc.",
     techs: ["HTML5", "CSS", "Bootstrap", "Javascript", "PHP", "MySQL"],
