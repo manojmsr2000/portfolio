@@ -19,7 +19,7 @@ export const projectDetails = {
     description:
       "Alley Bewitched is an eCommerce website built with MERN stack.",
     brief:
-      "Alley Bewitched is an eCommerce website built with MERN stack. It has admin functionalities like product details, order details, adding/deleting/editing products, delivery confirmation and some other necessary functions.",
+      "Alley Bewitched is an eCommerce website built with MERN stack. It has the necessary functions like user login/registration, searching products, adding products to cart, ordering cart items, a sandbox payment system(using PayPal API). It also has admin functionalities like adding/deleting/editing products, delivery confirmation etc.",
     techs: [
       "HTML5",
       "CSS (with SASS)",

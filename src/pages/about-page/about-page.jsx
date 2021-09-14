@@ -16,7 +16,7 @@ const AboutPage = () => (
       <Col lg={8}>
         <p className="about-me">
           I'm a 22 year old Computer Science student currently pursuing B.Tech
-          {"(3rd year)"} in Sikkim Manipal Institute of Technology. I've always
+          {"(4th year)"} in Sikkim Manipal Institute of Technology. I've always
           been interested in game development, which is why I took a liking to
           both programming and 3D Modelling.
           <br /> I do these projects for fun and for learning experience. I'm

@@ -28,7 +28,7 @@ const ProgrammingDetails = [
   {
     src: reg1,
     title: "YoHello!",
-    text: "YoHello! is a social networking website built with php and javascript.",
+    text: "YoHello! is a social networking website built with php,javascript and MySQL.",
   },
   {
     src: reg2,

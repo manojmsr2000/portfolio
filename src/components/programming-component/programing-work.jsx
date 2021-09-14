@@ -16,7 +16,7 @@ const ProgrammingWork = (props) => (
         if (index !== props.stopAt) {
           return (
             <Col key={index} lg={`${props.stopAt === 3 ? "4" : "6"}`} md="6">
-              <BounceUp>
+              <BounceUp delay={1000}>
                 <NavLink
                   style={
                     detail.text
