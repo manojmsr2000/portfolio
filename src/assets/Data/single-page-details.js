@@ -32,6 +32,7 @@ export const projectDetails = {
     ],
     resources: {
       hosted: "https://alleybewitched.herokuapp.com",
+      github: "https://github.com/manojmsr2000/alleybewitched",
       youtubelink: "https://www.youtube.com/embed/skpamEY9m-0",
     },
     completionDate: "14th June 2021",
