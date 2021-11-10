@@ -116,7 +116,7 @@ const singlePages = ({ match }) => {
               {resources.hosted && (
                 <BounceUp>
                   <p>
-                    The website is currently hosted at :{" "}
+                    The website is currently hosted at:{" "}
                     <a href={resources.hosted}>{resources.hosted}</a>
                   </p>
                 </BounceUp>
