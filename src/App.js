@@ -11,7 +11,7 @@ import AboutPage from "./pages/about-page/about-page";
 import singlePages from "./pages/single-pages/single-pages";
 
 import ReactGA from "react-ga";
-ReactGA.initialize("G-BRS8VGQT78");
+ReactGA.initialize("G-P1Q3ZQCGX0");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
