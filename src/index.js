@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { HashRouter } from "react-router-dom";
-
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,7 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 AOS.init({
-  once: true
+  once: true,
 });
 
 ReactDOM.render(

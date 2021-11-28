@@ -10,6 +10,10 @@ import ProgrammingPage from "./pages/programming-page/programming-page";
 import AboutPage from "./pages/about-page/about-page";
 import singlePages from "./pages/single-pages/single-pages";
 
+import ReactGA from "react-ga";
+ReactGA.initialize("G-BRS8VGQT78");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 function App() {
   return (
     <div>
