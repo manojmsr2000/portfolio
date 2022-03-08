@@ -1,6 +1,7 @@
 import reg1 from "../images/yohello/reg_page1.png";
 import reg2 from "../images/alley-bewitched/register_page.png";
 import mlpage from "../images/ml/ml_page.png";
+import { end } from "../../components/images";
 const ThreeDDetails = [
   {
     src: "https://cdna.artstation.com/p/assets/images/images/028/046/192/large/manoj-singh-0001-1.jpg?1593345839",
@@ -18,7 +19,7 @@ const ThreeDDetails = [
     text: "A fully CG stylized render of my hostel room.",
   },
   {
-    src: "https://i.ibb.co/wpHgmYT/ph.png",
+    src: end,
     title: "You've reached the end.",
     text: false,
   },
@@ -41,7 +42,7 @@ const ProgrammingDetails = [
     text: "APUML is a machine learning project on accident analysis.",
   },
   {
-    src: "https://i.ibb.co/wpHgmYT/ph.png",
+    src: end,
     title: "You've reached the end.",
     text: false,
   },

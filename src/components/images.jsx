@@ -11,6 +11,8 @@ import yohello4 from "../assets/images/yohello/cap4.JPG";
 import clay1 from "../assets/images/bus stop/clay.jpeg";
 import clay2 from "../assets/images/lighthouse/lightclay.jpg";
 import light2 from "../assets/images/lighthouse/light2.png";
+import end from "../assets/images/ph.png";
+
 
 
 export {
@@ -26,5 +28,6 @@ export {
   yohello4,
   clay1,
   clay2,
-  light2
+  light2,
+  end
 };
