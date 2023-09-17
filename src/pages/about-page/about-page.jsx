@@ -15,20 +15,23 @@ const AboutPage = () => (
       </Col>
       <Col lg={8}>
         <p className="about-me">
-          I'm a 22 year old Computer Science student currently pursuing B.Tech
-          {"(4th year)"} in Sikkim Manipal Institute of Technology. I've always
-          been interested in game development, which is why I took a liking to
-          both programming and 3D Modelling.
-          <br /> I do these projects for fun and for learning experience. I'm
-          always looking to improve my skills as a programmer and as a 3D
-          artist.
+          I'm a{" "}
+          {Math.floor(
+            (new Date() - new Date("2000-02-16").getTime()) / 3.15576e10
+          )}{" "}
+          year old Full Stack developer with keen interest in in game
+          development, which has led me to explore both programming and 3D
+          modeling.
+          <br /> I love messing around with code and 3D stuff for fun and
+          learning. I'm always trying to discover new stuff to make my code look
+          and perform better. And hey, who knows, maybe I'll sculpt my way into the 3D hall of fame as well!"
         </p>
       </Col>
       <Col lg={12}>
         <br />
         <FadeLeft>
           <h2>Programming / Technical Skills</h2>
-          <p>My Skill levels in different languages/frameworks</p>
+          <p>My Skill levels in languages/frameworks/services</p>
           <hr />
         </FadeLeft>
 
@@ -36,7 +39,7 @@ const AboutPage = () => (
         <br />
         <FadeLeft>
           <h2>Professional Software Skills</h2>
-          <p>My Skill levels in different softwares</p>
+          <p>My Skill levels in different applications</p>
           <hr />
         </FadeLeft>
 

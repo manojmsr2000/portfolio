@@ -15,7 +15,7 @@ const HomePage = () => {
             <h1>Manoj Singh</h1>
             <h2>Programmer / 3D Artist</h2>
             <h3>
-              I'm a computer science student who does 3D modelling on the side.
+              I'm a Full Stack Developer who does 3D modelling on the side.
             </h3>
             <h3>Experienced in... </h3>
             <em>

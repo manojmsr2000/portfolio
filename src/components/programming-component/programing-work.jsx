@@ -10,16 +10,20 @@ import { NavLink } from "react-router-dom";
 const ProgrammingWork = (props) => {
   return (
     <div id="pp" className="dark-bg">
-        <h1 className="work-title">Programming Projects</h1>
+      <h1 className="work-title">Programming Projects</h1>
       <Row>
-        {ProgrammingDetails.map(({text, src, title}, index) => {
-          if (index !== props.stopAt) {
-            return (
-              <WorkCard key={index} stopAt={props.stopAt} text={text} src={src} title={title}/>
-            );
-          } else {
-            return "";
-          }
+        {ProgrammingDetails.map(({ text, src, title }, index) => {
+          return (
+            index !== props.stopAt && (
+              <WorkCard
+                key={title}
+                stopAt={props.stopAt}
+                text={text}
+                src={src}
+                title={title}
+              />
+            )
+          );
         })}
       </Row>
       <div>

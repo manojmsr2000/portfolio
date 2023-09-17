@@ -10,14 +10,20 @@ import ThreeDDetails from "../../assets/Data/work-details";
 
 const ThreeDWork = (props) => (
   <div id="threed" className="dark-bg">
-      <h1 className="work-title">3D Projects</h1>
+    <h1 className="work-title">3D Projects</h1>
     <Row>
       {ThreeDDetails.map(({ text, src, title }, index) => {
-        if (index !== props.stopAt) {
-          return <WorkCard key={index} stopAt={props.stopAt} text={text} src={src} title={title} />;
-        } else {
-          return "";
-        }
+        return (
+          index !== props.stopAt && (
+            <WorkCard
+              key={title}
+              stopAt={props.stopAt}
+              text={text}
+              src={src}
+              title={title}
+            />
+          )
+        );
       })}
     </Row>
     <div>

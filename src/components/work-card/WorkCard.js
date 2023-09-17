@@ -20,11 +20,6 @@ export const WorkCard = ({ text, src, title, stopAt }) => (
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text>{text}</Card.Text>
-            {text && (
-              <Button variant="default" className="rounded-pill" size="lg">
-                View More
-              </Button>
-            )}
           </Card.Body>
         </Card>
       </NavLink>
