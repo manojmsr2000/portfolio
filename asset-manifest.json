@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.64e2095f.css",
-    "main.js": "/portfolio/static/js/main.16f7f81e.js",
+    "main.js": "/portfolio/static/js/main.db4532fa.js",
     "static/js/787.b9ec5bb0.chunk.js": "/portfolio/static/js/787.b9ec5bb0.chunk.js",
     "static/media/register_page.png": "/portfolio/static/media/register_page.46efebc584a7c13dccaa.png",
     "static/media/firewatch-sd.jpg": "/portfolio/static/media/firewatch-sd.2475e4866bda9674db82.jpg",
@@ -21,11 +21,11 @@
     "static/media/ml3.png": "/portfolio/static/media/ml3.dc120931833faa65ed4f.png",
     "index.html": "/portfolio/index.html",
     "main.64e2095f.css.map": "/portfolio/static/css/main.64e2095f.css.map",
-    "main.16f7f81e.js.map": "/portfolio/static/js/main.16f7f81e.js.map",
+    "main.db4532fa.js.map": "/portfolio/static/js/main.db4532fa.js.map",
     "787.b9ec5bb0.chunk.js.map": "/portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64e2095f.css",
-    "static/js/main.16f7f81e.js"
+    "static/js/main.db4532fa.js"
   ]
 }
